@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#theme{
+  display: none;
+}
+
+#theme:checked ~ .App{
+  filter: invert(1);
+}
+
+.App{
+  max-width: 1500px;
+  min-height: 100vh;
+  background: #FBFBFB;
+  box-shadow: 0 0 35px #ddd;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.main{
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;
+}
+
+img{
+  object-fit: cover;
+}
+
+.search_form{
+  position: relative;
+}
+
+.search_form #search{
+  background: #fafafa;
+  border: 1px solid #ddd;
+  min-width: 250px;
+  width: 100%;
+  outline: none;
+  text-indent: 5px;
+  border-radius: 3px;
+}
+
+/* ------------ Auth ------------ */
+@import url('./auth.css');
+
+@import url('./loading.css');
+
+@import url('./header.css');
+
+@import url('./avatar.css');
+
+@import url('./home.css');
+
+@import url('./profile.css');
+
+@import url('./news.css');
+
+@import url('./announ.css');
+
+@import url('./login.css');
+
+@import url('./notification.css');
+
+@import url('./ukm.css');
+
+@import url('./detailUkm.css');

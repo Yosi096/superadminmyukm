@@ -1,0 +1,120 @@
+.news{
+  width: 100%;
+  justify-items: center;
+}
+.news_card{
+  max-width: 90%;
+  overflow: hidden;
+  position: relative;
+  padding: 15px;
+  box-shadow: 0 0 15px #ddd;
+  margin: 20px;
+}
+.news_card img{
+  width: auto;
+  height: 500px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  object-fit: cover;
+}
+
+.news_card h4{
+  width: 100%;
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 10px 0;
+  opacity: 0.8;
+}
+
+.news_card h2{
+  width: 100%;
+  text-overflow: ellipsis;
+  font-family: Calibri;
+  font-weight: bold;
+  text-align: left;
+}
+.news_card p{
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  height: 70px;
+  overflow: hidden;
+  color: #323232;
+}
+.news_card .row_button{
+  color: #323232;
+
+}
+#load_more{
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #9F0000;
+  align-content: flex-end;
+  position: absolute;
+  margin-right: 0%;
+  display: block;
+  margin-left: 0%;
+  transform: translateY(-50%);
+  right: 0;
+  padding: 10px;
+  margin: 2px;
+}
+/* ------- Detail News -------- */
+.detail{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+  font-size: 150%;
+}
+.detail img{
+  max-width: 100%;
+  width: 700px;
+  height: auto;
+  margin: 20px;
+  object-fit: contain;
+  display: block;
+  object-fit: cover;
+}
+.box-detail{
+  max-width: 90%;
+  width: 100%;
+  margin: 20px
+}
+.box-detail .row{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.box-detail h4{
+  width: 100%;
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  text-align: justify;
+  line-height: 2;
+  margin: 10px 0;
+}
+.detail h2{
+  width: 100%;
+  text-overflow: ellipsis;
+  font-family: Calibri;
+  font-weight: bold;
+  text-align: justify;
+  text-align: center;
+  text-transform: uppercase;
+}

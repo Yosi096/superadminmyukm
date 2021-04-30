@@ -1,0 +1,54 @@
+.announ{
+  width: 100%;
+  justify-items: center;
+}
+.announ_card{
+  max-width: 90%;
+  overflow: hidden;
+  position: relative;
+  padding: 15px;
+  box-shadow: 0 0 15px #ddd;
+  margin: 30px;
+}
+.announ_card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  object-fit: cover;
+}
+
+.announ_card h4{
+  width: 100%;
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 10px 0;
+  opacity: 0.8;
+}
+
+.announ_card h2{
+  width: 100%;
+  text-overflow: ellipsis;
+  font-family: Calibri;
+  font-weight: bold;
+  text-align: left;
+}
+.announ_card p{
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  height: 70px;
+  overflow: hidden;
+  color: #323232;
+}
+.announ_card .row_button{
+  color: #323232;
+}
