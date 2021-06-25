@@ -21,7 +21,7 @@ function Pages() {
   return (
     <section>
     <Switch>
-      <Route path="/" exact component={auth.token ? NewsAnnoun : Login}/>
+      <Route path="/" exact component={Login}/>
       <Route path="/beranda" exact component={NewsAnnoun}/>
       <Route path="/detail/:id" exact component={DetailNews}/>
       <Route path="/details/:id" exact component={DetailAnnouns}/>
